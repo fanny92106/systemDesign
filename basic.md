@@ -46,8 +46,25 @@
     * Service就是整个系统被肢解后的独立服务模块
         
     
+3. Storage
+
+    > 程序 = 数据结构 + 算法
+    > 系统 = 服务 + 数据存储
     
+
+    * 为每个service 选择合适的数据存储引擎
     
+    [select storage engine for each service](imagePool/serviceStorage.png)
+    
+            Database
+                * Sql DB
+                * Nosql DB
+            File System
+            Cache 
             
-        
+    * 细化数据表结构 (SQL Schema)
+    
+
+    
+    
 
